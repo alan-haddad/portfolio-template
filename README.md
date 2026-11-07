@@ -2,6 +2,8 @@
 
 A one-page portfolio with project write-up pages. Plain HTML and CSS, one optional script, no build step, no dependencies. Light and dark themes follow the visitor's system setting.
 
+**Live demo:** https://alan-haddad.github.io/portfolio-template/
+
 ## What's included
 
 | Path | What it is |
