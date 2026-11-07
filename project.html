@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Copy this file once per project (e.g. my-project.html) and link to it from the Work section. -->
+  <title>Project name | Your Name</title>
+  <meta name="description" content="One sentence describing this project.">
+  <link rel="canonical" href="https://example.com/project.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Project name">
+  <meta property="og:description" content="One sentence describing this project.">
+  <meta property="og:url" content="https://example.com/project.html">
+  <!-- <meta property="og:image" content="https://example.com/images/og.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/mona-sans-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap-wide">
+      <a class="wordmark" href="./">Your Name</a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="./#work">Work</a></li>
+          <li class="opt"><a href="./#experience">Experience</a></li>
+          <li class="opt"><a href="./#credentials">Credentials</a></li>
+          <li><a href="./#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="cs-head">
+      <div class="wrap">
+        <p class="crumb"><a href="./#work">Selected work</a></p>
+        <h1>Project name</h1>
+        <p class="lede">One or two sentences on what this project is and the problem it solves.</p>
+        <!-- Three quick facts. Change the labels to whatever fits the project. -->
+        <dl class="cs-facts">
+          <div><dt>Built with</dt><dd>Languages, frameworks, platforms</dd></div>
+          <div><dt>Tooling</dt><dd>The tools you used to build or test it</dd></div>
+          <div><dt>Outcome</dt><dd>What it does or what changed because of it</dd></div>
+        </dl>
+      </div>
+    </header>
+
+    <article class="prose">
+      <div class="wrap">
+        <!-- Optional figure. Put an SVG diagram (see index.html for the classes) or an <img> inside. -->
+        <figure class="panel">
+          <div class="diagram-scroll">
+            <svg class="diagram" viewBox="0 0 664 220" role="img" aria-labelledby="proj-dt proj-dd" xmlns="http://www.w3.org/2000/svg">
+  <title id="proj-dt">Project flow</title>
+  <desc id="proj-dd">Input flows into a processing step, which produces an output.</desc>
+  <defs>
+    <marker id="proj-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ah" d="M0 0 L10 5 L0 10 z"/></marker>
+  </defs>
+  <rect class="zone" x="12" y="24" width="640" height="172" rx="10"/>
+  <text class="zone-label" x="28" y="48">Project boundary</text>
+
+  <rect class="node node-ext" x="40" y="80" width="160" height="68" rx="6"/>
+  <text class="t" x="54" y="108">Input</text>
+  <text class="st" x="54" y="129">Where data comes from</text>
+
+  <rect class="node node-attack" x="252" y="80" width="160" height="68" rx="6"/>
+  <text class="t" x="266" y="108">Processing</text>
+  <text class="st" x="266" y="129">The part you built</text>
+
+  <rect class="node" x="464" y="80" width="160" height="68" rx="6"/>
+  <text class="t" x="478" y="108">Output</text>
+  <text class="st" x="478" y="129">What people use</text>
+
+  <path class="edge" d="M200 114 L248 114" marker-end="url(#proj-ah)"/>
+  <path class="edge" d="M412 114 L460 114" marker-end="url(#proj-ah)"/>
+</svg>
+          </div>
+          <figcaption>A one-line caption that explains the figure.</figcaption>
+        </figure>
+
+        <h2>Why I built it</h2>
+        <p>The problem or question that started the project. Keep it to a short paragraph: what you wanted to learn, fix or prove.</p>
+
+        <h2>What's in it</h2>
+        <ul>
+          <li><strong>Component one.</strong> What it is and what it does.</li>
+          <li><strong>Component two.</strong> What it is and what it does.</li>
+          <li><strong>Component three.</strong> What it is and what it does.</li>
+        </ul>
+
+        <h2>How it works</h2>
+        <p>Walk through the interesting part. A code block helps here; inline code like <code>this_function()</code> works too.</p>
+        <figure class="code">
+          <div class="code-head"><span>example.py</span><span>Python</span></div>
+<pre><code><span class="c"># Replace with a short, real excerpt</span>
+<span class="k">def</span> main():
+    data = load(<span class="s">"input.json"</span>)
+    result = process(data)
+    save(result)</code></pre>
+        </figure>
+
+        <p class="callout">A callout for a key takeaway, a caveat, or a design decision worth highlighting.</p>
+
+        <h2>Problems I hit, and how I fixed them</h2>
+        <ul class="pairs">
+          <li>
+            <h3>The first problem</h3>
+            <p>What went wrong, in one sentence.</p>
+            <p class="fix"><strong>Fix:</strong> What you changed and how you confirmed it worked.</p>
+          </li>
+          <li>
+            <h3>The second problem</h3>
+            <p>What went wrong, in one sentence.</p>
+            <p class="fix"><strong>Fix:</strong> What you changed and how you confirmed it worked.</p>
+          </li>
+        </ul>
+
+        <h2>What I'd add next</h2>
+        <ul>
+          <li>An improvement you'd make with more time.</li>
+          <li>A feature that would extend it.</li>
+        </ul>
+
+        <div class="next-up">
+          <p>Next</p>
+          <a href="./#work">Back to all work</a>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap-wide">
+      <span>Copyright &copy; 2026 Your Name</span>
+      <span>Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+</body>
+</html>

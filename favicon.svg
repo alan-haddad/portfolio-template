@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Placeholder mark. Swap the path for your initial, or replace the file. -->
+  <rect width="64" height="64" rx="14" fill="#14213b"/>
+  <path d="M15 20 L29 32 L15 44" fill="none" stroke="#f2f4f8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="38" width="11" height="6" rx="1.5" fill="#f0b54a"/>
+</svg>

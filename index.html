@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: page title, description and the URLs below. Search for "EDIT" to find every spot. -->
+  <title>Your Name, your title</title>
+  <meta name="description" content="Your Name is a [your title] at [Company]. One sentence on what you do and who you do it for.">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Your Name, your title">
+  <meta property="og:description" content="One sentence on what you do and who you do it for.">
+  <meta property="og:url" content="https://example.com/">
+  <!-- EDIT: add a 1200x630 share image at images/og.png, then uncomment the next line -->
+  <!-- <meta property="og:image" content="https://example.com/images/og.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/mona-sans-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap-wide">
+      <a class="wordmark" href="./">Your Name</a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li class="opt"><a href="#experience">Experience</a></li>
+          <li class="opt"><a href="#credentials">Credentials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <h1 class="hero-name" id="hero-title">Your Name</h1>
+        <p class="hero-role">Your title, at Your Company. <br>A second role, credential or focus area.</p>
+        <div class="hero-links">
+          <a class="pill" href="#work">See my work</a>
+          <a class="chev" href="https://www.linkedin.com/">Connect on LinkedIn</a>
+        </div>
+
+        <!-- The hero "console": a code window that animates in line by line.
+             Swap the lines for something from your field (a query, a command, a config),
+             or delete the whole .stage-shot block for a text-only hero.
+             Each line is <span class="ln" style="--i:N"> where N sets its place in the animation.
+             Colour classes: .k keyword, .s string, .c comment. -->
+        <div class="stage-shot">
+          <figure class="console" aria-label="Example terminal session">
+            <div class="console-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><strong>Example window</strong><span>Edit this in index.html</span></div>
+<pre><code><span class="ln" style="--i:0"><span class="c"># a few lines that show what you work with</span></span><span class="ln" style="--i:1"><span class="k">$</span> whoami</span><span class="ln" style="--i:2">your-name</span><span class="ln" style="--i:3"><span class="k">$</span> cat focus.txt</span><span class="ln" style="--i:4"><span class="s">"Area one"</span>, <span class="s">"Area two"</span>, <span class="s">"Area three"</span></span><span class="ln" style="--i:5"><span class="k">$</span> ls projects/ <span class="k">|</span> <span class="k">grep</span> featured</span></code></pre>
+            <div class="console-result">
+              <p class="console-status"><span class="dot" aria-hidden="true"></span>1 match</p>
+              <table>
+                <thead><tr><th scope="col">project</th><th scope="col">status</th><th scope="col">year</th></tr></thead>
+                <tbody><tr><td>featured-project</td><td>shipped</td><td>2026</td></tr></tbody>
+              </table>
+              <p class="console-note">Illustrative example. Replace it with your own.</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section band" id="about" aria-label="About">
+      <div class="wrap-wide">
+        <div class="about-grid">
+          <!-- Two-tone statement: the plain part is your headline, the <span> part renders lighter. -->
+          <p class="statement reveal">One line on what you do. <span>And a second line on how you do it.</span></p>
+          <div class="about-copy reveal">
+            <p>Start with what you do now. At <strong>Your Company</strong>, I [own / build / lead] [the thing you're responsible for]. Name two or three specifics a hiring manager would care about.</p>
+            <p>Then the path that got you here. If you came from a different field, say so and say why it helps: the skills you carried over are often the most memorable part of an about section.</p>
+            <p>Close with what's next: a goal, a degree you're working toward, or the kind of problem you want to work on. Use <strong>bold</strong> sparingly, for the two or three names that matter most.</p>
+          </div>
+        </div>
+        <!-- Four highlight tiles. Keep the big text short (one to three words). -->
+        <div class="tiles">
+          <div class="tile reveal"><span class="big">10 years</span><span class="small">A headline number from your career</span></div>
+          <div class="tile reveal"><span class="big">Specialty</span><span class="small">The domain or environment you know best</span></div>
+          <div class="tile reveal"><span class="big">Certified</span><span class="small">Your top credentials in one line</span></div>
+          <div class="tile reveal"><span class="big">School</span><span class="small">Your degree, field of study</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section band work-section" id="work" aria-labelledby="work-title">
+      <div class="wrap-wide">
+        <div class="kicker-head reveal">
+          <h2 id="work-title">Selected work.</h2>
+          <p>One sentence framing the projects below.</p>
+        </div>
+
+        <div class="bento">
+          <!-- Featured project: full width, text on the left, a diagram or image on the right. -->
+          <article class="work work-feature reveal">
+            <div>
+              <h3>Featured project</h3>
+              <p>Two sentences on what you built and why. Lead with the outcome, then the interesting part of how it works.</p>
+              <ul class="stack" aria-label="Technologies">
+                <li>Tool</li><li>Language</li><li>Platform</li><li>Service</li><li>Framework</li>
+              </ul>
+              <div class="links"><a class="chev" href="project.html">Read the write-up</a><a class="chev" href="https://github.com/">See the code</a></div>
+            </div>
+            <div class="art-feature diagram-scroll">
+              <!-- Diagram classes: .zone / .zone-inner boundaries, .node boxes (.node-ext for outside systems,
+                   .node-attack for the highlighted path), .t title, .st subtitle, .edge arrows, .el edge labels.
+                   You can also replace this whole SVG with an <img>. -->
+              <svg class="diagram" viewBox="0 0 664 456" role="img" aria-labelledby="feat-dt feat-dd" xmlns="http://www.w3.org/2000/svg">
+  <title id="feat-dt">Featured project architecture</title>
+  <desc id="feat-dd">A client sends requests to a service inside a system boundary. The service reads and writes a data store and sends events to an external reporting tool.</desc>
+  <defs>
+    <marker id="feat-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ah" d="M0 0 L10 5 L0 10 z"/></marker>
+    <marker id="feat-ah-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ah-attack" d="M0 0 L10 5 L0 10 z"/></marker>
+  </defs>
+
+  <rect class="zone" x="12" y="40" width="440" height="404" rx="10"/>
+  <text class="zone-label" x="28" y="64">System boundary</text>
+  <rect class="zone-inner" x="30" y="78" width="404" height="350" rx="8"/>
+  <text class="zone-label" x="46" y="102">Inner zone</text>
+
+  <rect class="node node-attack" x="46" y="118" width="172" height="64" rx="6"/>
+  <text class="t" x="60" y="145">Client</text>
+  <text class="st" x="60" y="166">Where requests start</text>
+
+  <rect class="node" x="246" y="118" width="172" height="64" rx="6"/>
+  <text class="t" x="260" y="145">Scheduler</text>
+  <text class="st" x="260" y="166">Runs jobs on a timer</text>
+
+  <rect class="node" x="146" y="300" width="172" height="68" rx="6"/>
+  <text class="t" x="160" y="328">Core service</text>
+  <text class="st" x="160" y="349">The part you built</text>
+
+  <path class="edge edge-attack" d="M132 182 L198 296" marker-end="url(#feat-ah-a)"/>
+  <text class="el el-attack" x="62" y="238">Highlighted</text>
+  <text class="el el-attack" x="62" y="253">path</text>
+  <path class="edge" d="M332 182 L268 296" marker-end="url(#feat-ah)"/>
+  <text class="el" x="322" y="238">Scheduled</text>
+  <text class="el" x="322" y="253">jobs</text>
+
+  <text class="st" x="46" y="398">A one-line note about how the pieces are secured</text>
+  <text class="st" x="46" y="414">or connected.</text>
+
+  <rect class="node node-ext" x="490" y="300" width="160" height="68" rx="6"/>
+  <text class="t" x="504" y="328">Data store</text>
+  <text class="st" x="504" y="349">Outside the boundary</text>
+
+  <path class="edge" d="M318 334 L486 334" marker-end="url(#feat-ah)"/>
+  <text class="el" x="334" y="325">Writes</text>
+  <text class="el" x="334" y="352">on each run</text>
+
+  <rect class="node node-ext" x="490" y="118" width="160" height="64" rx="6"/>
+  <text class="t" x="504" y="145">Reporting tool</text>
+  <text class="st" x="504" y="166">Dashboards, alerts</text>
+
+  <path class="edge" d="M570 300 L570 186" marker-end="url(#feat-ah)"/>
+  <text class="el" x="580" y="238">Ingest</text>
+  <text class="el" x="580" y="253">pipeline</text>
+</svg>
+            </div>
+          </article>
+
+          <!-- Two smaller projects. The .mini-code block is optional art; delete it or swap in an <img>. -->
+          <article class="work reveal">
+            <h3>Second project</h3>
+            <p>One or two sentences on what it is and what it shows about how you work.</p>
+            <div class="links"><a class="chev" href="project.html">Read the notes</a></div>
+            <div class="art" aria-hidden="true">
+<div class="mini-code"><span class="k">def</span> handle(event):
+    <span class="k">if</span> event.type == <span class="s">"important"</span>:
+        <span class="k">return</span> act_on(event)
+    <span class="k">return</span> None
+
+<span class="hit">A short caption for the snippet</span></div>
+            </div>
+          </article>
+
+          <article class="work reveal">
+            <h3>Third project</h3>
+            <p>One or two sentences on what it is and what it shows about how you work.</p>
+            <div class="links"><a class="chev" href="project.html">Read the write-up</a></div>
+            <div class="art" aria-hidden="true">
+<div class="mini-code"><span class="k">my-tool</span>   <span class="hit">4 commands</span>
+
+init            status
+build           deploy</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="wrap-wide">
+        <div class="kicker-head reveal"><h2 id="exp-title">Experience.</h2></div>
+        <!-- Newest first. Three entry styles below: a standard role, a company with several roles (.roles),
+             and a one-line "brief" entry for older history. -->
+        <ol class="timeline reveal" reversed>
+          <li><div class="when">Jan 2024&nbsp;&ndash;&nbsp;Present</div><div><h3>Your Current Title</h3><p class="org">Company Name</p><ul><li>Lead with your biggest responsibility and its scope.</li><li>A result you can point to, with a number if you have one.</li><li>Something you built, improved or fixed, and what changed because of it.</li><li>How you work with other teams.</li></ul></div></li>
+          <li><div class="when">Jun 2022&nbsp;&ndash;&nbsp;Present</div><div><h3>A Concurrent Role</h3><p class="org">Organization</p><p class="note">Optional one-line note for context, such as how you got there.</p><ul><li>What you do in this role.</li><li>Who or what you're responsible for.</li></ul></div></li>
+          <li><div class="when">2016&nbsp;&ndash;&nbsp;2024</div><div><h3>Previous Company</h3><p class="org">Several roles at the same company</p><ol class="roles"><li><h4>Most Recent Role</h4><span class="role-when">2021&nbsp;&ndash;&nbsp;2024</span><p>One sentence on scope and impact.</p></li><li><h4>Middle Role</h4><span class="role-when">2019&nbsp;&ndash;&nbsp;2021</span><p>One sentence on scope and impact.</p></li><li><h4>First Role</h4><span class="role-when">2016&nbsp;&ndash;&nbsp;2019</span><p>One sentence on scope and impact.</p></li></ol></div></li>
+          <li class="brief"><div class="when">2012&nbsp;&ndash;&nbsp;2016</div><div><h3>Earlier Role</h3><p class="org">Organization</p><p class="note">A single sentence is enough for older history.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CREDENTIALS ============ -->
+    <section class="section band" id="credentials" aria-labelledby="cred-title">
+      <div class="wrap-wide">
+        <div class="kicker-head reveal"><h2 id="cred-title">Credentials.</h2></div>
+        <!-- Four cards fit one row on desktop. Newest first. -->
+        <div class="cert-grid">
+          <article class="cert reveal"><span class="issuer">Issuer</span><h3 class="abbr">CERT-1</h3><span class="name">Full Certification Name</span><span class="issued">Issued Mon YYYY</span></article>
+          <article class="cert reveal"><span class="issuer">Issuer</span><h3 class="abbr">CERT-2</h3><span class="name">Full Certification Name</span><span class="issued">Issued Mon YYYY</span></article>
+          <article class="cert reveal"><span class="issuer">Issuer</span><h3 class="abbr">CERT-3</h3><span class="name">Full Certification Name</span><span class="issued">Issued Mon YYYY</span></article>
+          <article class="cert reveal"><span class="issuer">Issuer</span><h3 class="abbr">CERT-4</h3><span class="name">Full Certification Name</span><span class="issued">Issued Mon YYYY</span></article>
+        </div>
+        <p class="education reveal"><strong>Your University</strong>, Degree, Field of Study, Year</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 class="reveal" id="contact-title">Let's talk.</h2>
+        <p class="reveal">What you'd like to hear about, and the best way to reach you.</p>
+        <div class="hero-links reveal">
+          <!-- EDIT: your links. For email use href="mailto:you@example.com". -->
+          <a class="pill" href="https://www.linkedin.com/">Message me on LinkedIn</a>
+          <a class="pill pill-ghost" href="https://github.com/">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap-wide">
+      <span>Copyright &copy; 2026 Your Name</span>
+      <span>Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+  <script src="assets/js/reveal.js" defer></script>
+</body>
+</html>
